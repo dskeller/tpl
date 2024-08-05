@@ -1,5 +1,5 @@
 # tpl
-
+[![CI](https://github.com/dskeller/tpl/actions/workflows/ci.yml/badge.svg)](https://github.com/dskeller/tpl/actions/workflows/ci.yml)  
 Simple templating from environment variables.
 
 ## Usage
