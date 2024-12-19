@@ -31,7 +31,7 @@ build-linux: clean fmt
 		go build -ldflags "$(LDFLAGS)" -o _releases/$(NAME)-linux-arm64
 	GOOS=linux GOARCH=riscv64 \
 		go build -ldflags "$(LDFLAGS)" -o _releases/$(NAME)-linux-riscv64
-        GOOS=linux GOARCH=s390x \
+	GOOS=linux GOARCH=s390x \
 		go build -ldflags "$(LDFLAGS)" -o _releases/$(NAME)-linux-s390x
 
 build-darwin: clean fmt
